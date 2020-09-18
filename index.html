@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Homer Moncayo">
+    <meta name="description" content="Página web para Michael Jordan">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Todo Basketball</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="site-logo">
+                <img src="img/logo.png" alt="Jordan Logo">
+                <h2>Todo Basketball</h2>
+            </a>
+            <nav class="navbar">
+                <button class="toggle-navbar" data-navbar-id="#main-navbar" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul class="nav" id="main-navbar">
+                    <li class="nav-item">
+                        <a href="#what-is" class="nav-link">¿Que es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#history" class="nav-link">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#rules" class="nav-link">Reglas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#more-info" class="nav-link">Más info</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slider-item" style="background-image: url(img/basketball.jpg)"></div>
+                <div class="slider-item" style="background-image: url(img/aro-2.jpg)"></div>
+                <div class="slider-item" style="background-image: url(img/aro-1.jpg)"></div>
+                <div class="slider-item" style="background-image: url(img/balon.jpg)"></div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev ripple-button" disabled>
+                <i class="fa fa-chevron-left"></i>
+            </button>
+            <button class="next ripple-button">
+                <i class="fa fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="container columns py-6 align-items-center" id="what-is">
+        <section class="col-12 col-md-6 mb-3 mb-md-0">
+            <h2 class="separator">¿Que es?</h2>
+            <p>Es un deporte de equipo, jugado entre dos conjuntos de cinco jugadores cada uno durante cuatro períodos o cuartos de diez​<sup>2</sup> o doce minutos cada uno. El objetivo del equipo es anotar puntos introduciendo un balón por la canasta, un aro a 3,05 metros sobre la superficie de la pista de juego del que cuelga una red. La puntuación por cada canasta o cesta es de dos o tres puntos, dependiendo de la posición desde la que se efectúa el tiro a canasta, o de uno, si se trata de un tiro libre por una falta de un jugador contrario. El equipo ganador es el que obtiene el mayor número de puntos.</p>
+            <p class="info-text">Info sacada de Wikipedia</p>
+            <a href="https://es.wikipedia.org/wiki/Baloncesto" target="_blank" class="button button-primary">Ver Más</a>
+        </section>
+        <div class="col-12 col-md-6 px-3">
+            <img src="img/jugador-vector.svg" alt="Jugador de Basketball">
+        </div>
+    </div>
+
+    <div class="columns bg-dark" id="history">
+        <div class="col-12 col-md-6 bg-basket fixed-bg"></div>
+            <div class="col-12 col-md-6 py-5 px-3 px-md-4 text-light">
+                <h2>Historia</h2>
+                <p>El baloncesto nació como una solución a la necesidad de realizar alguna actividad deportiva durante el invierno, en la escuela de la <a href="https://es.wikipedia.org/wiki/YMCA" target="_blank">YMCA</a> (Young Men's Christian Association) de <a href="https://es.wikipedia.org/wiki/Springfield,_Massachusetts" target="_blank">Springfield, Massachusetts</a>. <a href="https://es.wikipedia.org/wiki/James_Naismith" target="_blank">James Naismith</a>, profesor de educación física en la escuela, ideó el baloncesto como juego de pelota basado en trece reglas.</p>
+                <p>El juego se extendió por Estados Unidos, Canadá y el resto del mundo, experimentando algunas modificaciones durante el curso del tiempo. Muchas de las reglas iniciales se mantienen hasta la actualidad, aunque algunos aspectos del juego tuvieron que modificarse para responder a desarrollos en la técnica de los jugadores y aspectos no previstos en el desarrollo del juego, normalmente como consecuencia de la manipulación de las reglas por parte de los entrenadores y jugadores para inclinar los partidos.6​</p>
+                <p class="info-text">Info sacada de Wikipedia</p>
+            </div>
+        </div>
+        <div class="columns bg-dark">
+            <div class="col-12 col-md-6 py-5 px-3 px-md-4 text-light order-1 order-md-0">
+                <h2>Jugadores<br>Famosos</h2>
+                <ul class="list list-players">
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Michael_Jordan" target="_blank" class="player">Michael Jordan</a>
+                        <a href="https://es.wikipedia.org/wiki/Chicago_Bulls" target="_blank" class="team">Chicago Bulls</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/LeBron_James" target="_blank" class="player">Lebrom James</a>
+                        <a href="https://es.wikipedia.org/wiki/Los_Angeles_Lakers" target="_blank" class="team">Lakers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Kobe_Bryant" target="_blank" class="player">Kobe Bryant</a>
+                        <a href="https://es.wikipedia.org/wiki/Los_Angeles_Lakers" target="_blank" class="team">Lakers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Shaquille_O%27Neal" target="_blank" class="player">Shaquille O'Neal</a>
+                        <a href="https://es.wikipedia.org/wiki/Los_Angeles_Lakers" target="_blank" class="team">Lakers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Magic_Johnson" target="_blank" class="player">Magic Johnson</a>
+                        <a href="https://es.wikipedia.org/wiki/Los_Angeles_Lakers" target="_blank" class="team">Lakers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Kevin_Durant" target="_blank" class="player">Kevin Durant</a>
+                        <a href="https://es.wikipedia.org/wiki/Brooklyn_Nets" target="_blank" class="team">Brooklyn Nets</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://es.wikipedia.org/wiki/Bill_Russell" target="_blank" class="player">Bill Russel</a>
+                        <a href="https://es.wikipedia.org/wiki/Boston_Celtics" target="_blank" class="team">Boston Celtics</a>
+                    </li>
+                </ul>
+                <p class="info-text">Estos son solo algunos - Info sacada de Wikipedia</p>
+            </div>
+            <div class="col-12 col-md-6 bg-player fixed-bg"></div>
+        </div>
+        
+        <div style="background-color: #eee;">
+            <section class="container py-6" id="rules">
+            <h2 class="separator separator-center">Reglas del BasketBall</h2>
+            <p class="t-center">Las reglas internacionales de baloncesto son elaboradas por el comité central de la <a href="https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_de_Baloncesto" target="_blank">FIBA</a> y son revisadas cada dos años. Son de aplicación en todas las competiciones de carácter internacional entre países y adoptadas por la mayoría de federaciones nacionales, incluida la <a href="https://es.wikipedia.org/wiki/Federaci%C3%B3n_Espa%C3%B1ola_de_Baloncesto" target="_blank">FEB</a>. En <a href="https://es.wikipedia.org/wiki/Estados_Unidos" target="_blank">Estados Unidos</a> la <a href="https://es.wikipedia.org/wiki/National_Basketball_Association" target="_blank">NBA</a> hace uso de un reglamento diferente al establecido por <a href="https://es.wikipedia.org/wiki/Federaci%C3%B3n_Internacional_de_Baloncesto" target="_blank">FIBA</a>. Actualmente se está llevando a cabo un proceso gradual de acercamiento entre estas dos grandes corrientes de reglas del baloncesto. En 1971 las reglas del baloncesto femenino se modificaron y se hicieron más parecidas a las de los partidos masculinos.</p>
+            <div class="columns py-5">
+                <section class="col-12 col-md-6 px-0 px-md-2">
+                    <h3 class="separator">Transcurso del partido</h3>
+                    <p>Un partido de baloncesto se divide en cuatro periodos de tiempo o cuartos de diez minutos, según las reglas de la FIBA, o doce minutos en la NBA. Los partidos de los campeonatos de la NCAA constan de dos tiempos de veinte minutos. A medio tiempo, se realiza una pausa de quince minutos y los equipos cambian de canasta.</p>
+                    
+                    <p>Cada equipo está formado por doce jugadores como máximo. Cinco de ellos juegan, y los otros son los suplentes. El entrenador puede cambiar a los jugadores tantas veces como desee aprovechando interrupciones en el juego. Al comenzar el partido, un jugador de cada equipo se ubica dentro del círculo central, cada uno a un lado de la línea que divide el campo de juego en dos mitades. Los demás jugadores deben estar fuera del círculo. El árbitro lanza la pelota hacia arriba desde el centro del círculo y los dos jugadores saltan verticalmente para intentar desviarla, sin cogerla, hacia algún compañero de su equipo.</p>
+
+                    <p>El cronómetro se para cada vez que el árbitro toca el silbato, en caso de falta o salida del balón, por ejemplo, por lo que la duración real del partido puede exceder ampliamente el tiempo de juego reglamentario. No hay tiempo extra como en el fútbol. Las canastas encestadas después de la señal de final de tiempo se cuentan si el tiro fue iniciado durante el tiempo reglamentario («canasta sobre la bocina»). El equipo con más puntos al final del partido es el ganador. En caso de empate, se juegan cinco minutos de prórroga; si al acabar esta el marcador aún está igualado, se inicia otra prórroga hasta que se rompa el empate. Los partidos de ida y vuelta constituyen una excepción: en ellos puede haber empate en uno de los partidos, puesto que el vencedor se decide por el resultado combinado de ambos.</p>
+                </section>
+                <section class="col-12 col-md-6 px-0 px-md-2 bdl">
+                    <h3 class="separator">Puntuación</h3>
+                    <p>El objetivo del baloncesto es marcar más puntos que el equipo contrincante, encestando el balón en el cesto contrario e impidiendo a los jugadores contrincantes encestar en la propia.</p>
+
+                    <p>Se llama canasta cuando el balón entra en el cesto del contrincante y se puntúan de la siguiente manera:</p>
+
+                    <ul class="list-basic">
+                        <li class="list-basic-item">Una canasta lanzada desde el tiro libre vale 1 punto.</li>
+                        <li class="list-basic-item">Una canasta lanzada desde la zona de tiro de 2 puntos vale 2 puntos.</li>
+                        <li class="list-basic-item">Una canasta lanzada desde la zona de tiro de 3 puntos vale 3 puntos.(a 6,75 m del centro del aro, o 7,24 en la NBA)</li>
+                        <li class="list-basic-item">Si el balón toca el aro tras un último tiro libre, y después un jugador, sea atacante o defensor, toca el balón antes de que entre en la canasta, la canasta será en este caso de 2 puntos.</li>
+                    </ul>
+                    <p>La puntuación se lleva mediante dos sistemas: el primero es el acta oficial del partido donde el anotador marca todas las canastas y puntos por jugador; el segundo sistema es el tablero electrónico, donde además se señala el cronómetro, el conteo de faltas de cada jugador y de cada equipo y el cuarto que se está jugando.</p>
+                </section>
+            </div>
+            <p class="info-text t-center">Info sacada de Wikipedia</p>
+        </section>
+    </div>
+
+    <section class="container py-6" id="more-info">
+        <h2 class="separator separator-center">Más info</h2>
+        <p class="t-center mb-md-2">El contenido del Sitio esta extraido de Wikipedia, por lo cual seria mejor que lo vieses desde la página oficial <a href="">Wikipedia</a>.<br>La razon es que este sitio es una practica Frontend</p>
+        <div class="columns">
+            <div class="col-12 col-sm-6 col-md-4 px-0 px-md-1 my-2 my-md-0">
+                <article class="card card-body">
+                    <h3 class="card-title">Finalidad del Sitio</h3>
+                    <p class="card-text">En este sitio web se da por entendido que hablaremos de Basketball, esa es la idea, pero yo no soy basquetbolista, solo juego por entretenimiento. El punto es que el contenido de la página esta sacado de Wikipedia</p>
+                    <p class="card-text">Yo "Homer Moncayo" me dedico al desarrollo web, que se divide en dos partes importantes, el Frontend y Backend. Este sitio web esta construido con HTML, CSS y JS, por lo cual es un <strong>sitio informativo o estatico</strong></p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 px-0 px-md-1 my-2 my-md-0">
+                <article class="card card-body">
+                    <h3 class="card-title">Como se construllo el Sitio</h3>
+                    <p class="card-text">Este sitio tipo Landing Page esta construido de forma modular, osea utilizando imports de SASS y Modulos de ES6. Utilize Font Awesome para los iconos, y Google Fonts para las fuentes.</p>
+                    <p class="card-text">Para este Sitio de ejemplo utilice las 3 tecnologias básicas para el <strong>desarrollo Frontend, HTML, CSS y JavaScript</strong>. Utilizando el <strong>preprocesador SASS</strong> y <strong>Sintaxis de ES6</strong>. Todo el código esta realizado <strong>sin librerias ni frameworkss</strong>(son códigos ya hechos, para ahorrar tiempo).</p>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 px-0 px-md-1 my-2 my-md-0">
+                <article class="card card-body">
+                    <h3 class="card-title">Sobre Homer Moncayo</h3>
+                    <p class="card-text">Hola, yo soy Homer Moncayo. Soy Desarrollador web Frontend y con nociones Backend, eso no quiere decir que siempre sera así. En el Futuro planteo ser Fullstack.</p>
+                    <p class="card-text">Inicie en este mundo hace más de 2 años, y en todo este tiempo me eh enamorado del desarrollo web, tanto así que CSS se convirtio en mi lenguaje favorito(del cual se bastante).</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <button class="button button-primary go-top">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+
+    <footer class="site-footer">
+        <div class="container columns">
+            <div class="col-12 col-md-6">
+                <p class="copyright">Homer Moncayo &copy; - <span class="year">2020</span></p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="navbar">
+                    <ul class="nav" id="main-navbar">
+                        <li class="nav-item">
+                            <a href="#what-is" class="nav-link">¿Que es?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#history" class="nav-link">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#rules" class="nav-link">Reglas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#more-info" class="nav-link">Más info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <a href="#">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
